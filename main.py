@@ -222,7 +222,7 @@ def movePlayer():
         except:
         ### GET KEY RANDOMLY
             # IF AI Couldnt Find the path to food, we use random choise
-            print("Use Random Choise")
+            print("Use Random Choice")
             get_key = choises[random.randint(0, 3)]
             while (last_key == 'w' and get_key == 's') or (last_key == 'a' and get_key == 'd') or \
                     (last_key == 's' and get_key == 'w') or (last_key == 'd' and get_key == 'a'):
